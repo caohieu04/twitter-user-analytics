@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* .container {
+  overflow-x: hidden;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+/* h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+} */
+
+.search-bar {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-spacing: 0;
+  border-radius: 0.3rem;
+  /* position: absolute; */
+
+  /* align-items: center; */
+}
+
+/* * {
+  font-size: 100%;
+  font-family: Comic Sans MS;
+ } */
+
+/* ul li {
+  font-size: 20px;
+} */
+
+table {
+  border-spacing: 0.15rem;
+  border-radius: 1rem;
+  /* border: 1px rgb(90, 90, 90); */
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+caption {
+  caption-side: top;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Comic Sans MS;
+  background:rgba(29,161,242,0.4);
+  border-radius: 0.1rem;
+}
+
+th {
+  font-size: 16px;
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  border-right: 2px solid rgb(235, 235, 235);
+  border-radius: 0.1rem;
+  background: rgba(29,161,242,0.25)
+}
+td {
+  /* font-family: sans-serif; */
+  /* font-family: Comic Sans MS; */
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  font-size: 14px;
+  margin: 0;
+  padding: 0.5rem;
+  vertical-align: top;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  border-right: 2px solid rgb(235, 235, 235);
+  border-radius: 0.1rem;
+  line-height: 160%;
+}
+
+/* th:nth-child(2n) {
+  background: rgba(29,161,242,0.3)
+}
+
+th:nth-child(2n+1) {
+  background: rgba(29,161,242,0.25)
+} */
+
+/* td:nth-child(2n) {
+  background:rgba(29,161,242,0.05)
+}
+
+td:nth-child(2n+1) {
+  background: rgba(29,161,242,0.05)
+} */
+
+/* th:last-child,
+td:last-child {
+  border-right: 0;
+} */
+
+/* .container {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+} */
