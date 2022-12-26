@@ -42,6 +42,3 @@
 chmod +x ./run.sh
 ./run.sh
 ```
-## Team members: 
-  * Cao Ngoc Hieu
-  * Nguyen Gia Huy
